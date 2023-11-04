@@ -1,0 +1,49 @@
+.bar{
+  background-color: #dd42ae;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+}
+.bar ul{
+  display: inline-flex;
+  margin: 5px;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.bar ul li {
+  margin: 50px;
+  text-decoration: none;
+}
+.bar ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+}
+.active , .bar ul li :hover{
+  border-radius: 20px;
+  background: #b42c8c;
+}
+.bar ul li :hover .sub-bar{
+display: block;
+position: absolute;
+margin-top: 15px;
+margin-left: -15px;
+}
+.bar ul li :hover .sub-bar{
+display: block;
+
+}
+.h1{
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #b42c8c;
+  text-align: center;
+
+}
+.Drinks{
+ color: #b42c8c;
+ 
+}
