@@ -53,3 +53,6 @@ display: block;
   color: #b42c8c;
   text-align: center;
 }
+.image{
+  align-items: center;
+}
